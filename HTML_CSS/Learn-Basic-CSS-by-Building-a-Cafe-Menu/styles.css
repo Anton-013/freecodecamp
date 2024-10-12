@@ -5,15 +5,15 @@ body {
 }
 
 h1 {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 h2 {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 .established {
-	font-style: italic;
+  font-style: italic;
 }
 
 h1, h2, p {
@@ -40,7 +40,7 @@ hr {
 }
 
 h1, h2 {
-	font-family: impact, serif;
+  font-family: Impact, serif;
 }
 
 .item p {
@@ -63,9 +63,21 @@ h1, h2 {
 /* FOOTER */
 
 footer {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 a {
-	color: black;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
 }
