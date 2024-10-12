@@ -6,7 +6,7 @@ body {
 
 h1 {
   font-size: 40px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 15px;
 }
 
@@ -35,6 +35,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -25px;
 }
 
 hr {
@@ -75,7 +76,7 @@ footer {
 }
 
 .address {
-	margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 a {
