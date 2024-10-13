@@ -13,13 +13,13 @@ h1 {
 }
 
 .one {
-	background: red;
+	background: rgb(255, 0, 0);
 }
 
 .two {
-	background: green;
+	background: rgb(0, 127, 0);
 }
 
 .three {
-	background: blue;
+	background: rgb(0, 0, 255);
 }
