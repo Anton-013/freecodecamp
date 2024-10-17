@@ -22,5 +22,18 @@ form {
 
 fieldset {
 	border: none; /* рамка */
+	margin-bottom: 10px;
 }
 
+label,
+.block {
+	display: block;
+	margin-top: 10px;
+}
+
+label,
+.block,
+textarea,
+select {
+	width: 100%;
+}

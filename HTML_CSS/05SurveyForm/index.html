@@ -15,11 +15,11 @@
 		<form id="survey-form">
 			<fieldset>
 				<legend>Введите ваши данные</legend>
-				<label for="name">Имя:<input id="name" name="name" type="text" required /></label>
-				<label for="email">Электронная почта:<input id="email" type="email" required /></label>
-				<label for="age">Возраст:<input id="age" type="number" min="14" max="100" /></label>
+				<label for="name">Имя:<input id="name" name="name" type="text" class="block" required /></label>
+				<label for="email">Электронная почта:<input id="email" type="email" class="block" required /></label>
+				<label for="age">Возраст:<input id="age" type="number" min="14" max="100" class="block" required /></label>
 				<label>Какой вариант описывает вашу должность лучше?
-					<select id="select">
+					<select id="select" class="block" required>
 						<option>Школьник</option>
 						<option>Студент</option>
 						<option>Работающий</option>
