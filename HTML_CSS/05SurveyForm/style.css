@@ -37,3 +37,7 @@ textarea,
 select {
 	width: 100%;
 }
+
+textarea {
+	min-height: 100px;
+}
