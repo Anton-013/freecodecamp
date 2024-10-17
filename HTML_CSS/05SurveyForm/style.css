@@ -10,3 +10,15 @@ body {
   font-size: 16px;
 }
 
+header {
+	text-align: center;
+}
+
+form {
+	width: 80%;
+	min-width: 400px;
+	max-width: 600px;
+	margin: 0 auto; /* выравнивание по центру */
+	background-color: #261f01;
+	opacity: 95%;
+}
