@@ -8,46 +8,83 @@
 </head>
 <body>
 	<header>
-		<h1>Форма опроса freeCodeCamp</h1>
-		<p>Спасибо, что нашли время помочь нам улучшить нашу платформу</p>
+		<h1 id="title">Форма опроса freeCodeCamp</h1>
+		<p id="description">Спасибо, что нашли время помочь нам улучшить нашу платформу</p>
 	</header>
 	<main>
 		<form>
 			<fieldset>
-				<label>Имя</label>
-				<label>Электронная почта</label>
-				<label>Возраст</label>
-				<label>Какой вариант описывает вашу должность лучше?</label>
+				<label for="name">Имя:<input id="name" name="name" type="text" required /></label>
+				<label for="email">Электронная почта:<input id="email" type="email" required /></label>
+				<label for="age">Возраст:<input id="age" type="number" min="14" max="100" /></label>
+				<label>Какой вариант описывает вашу должность лучше?
+					<select>
+						<option>Школьник</option>
+						<option>Студент</option>
+						<option>Работающий</option>
+						<option>Не хочу говорить</option>
+						<option>Другое</option>
+					</select>
+				</label>
 			</fieldset>
 			<fieldset>
 				<legend>Порекомендуете ли вы freeCodeCamp другу?</legend>
-				<label></label>
-				<label></label>
-				<label></label>
+				<label><input type="radio" name="radio" />Однозначно да!</label>
+				<label><input type="radio" name="radio" />Не знаю</label>
+				<label><input type="radio" name="radio" />Точно нет!</label>
 			</fieldset>
 			<fieldset>
 				<legend>Какая функция freeCodeCamp вам нравится больше всего?</legend>
-				<select></select>
+				<select>
+					<option>Вызовы</option>
+					<option>Проекты</option>
+					<option>Сообщество</option>
+					<option>Открытый исходный код</option>
+				</select>
 			</fieldset>
 			<fieldset>
-				<legend></legend>
-				<label></label>
-				<label></label>
-				<label></label>
-				<label></label>
-				<label></label>
-				<label></label>
-				<label></label>
-				<label></label>
-				<label></label>
-				<label></label>
-				<label></label>
+				<legend>Что бы вы хотели улучшить? (Отметьте все подходящие варианты)</legend>
+				<label>
+					<input type="checkbox">Проекты фронтенда
+				</label>
+				<label>
+					<input type="checkbox">Проекты бэкэнда
+				</label>
+				<label>
+					<input type="checkbox">Визуализация данных
+				</label>
+				<label>
+					<input type="checkbox"Вызовы>
+				</label>
+				<label>
+					<input type="checkbox">Сообщество с открытым кодом
+				</label>
+				<label>
+					<input type="checkbox">Комнаты помощи Gitter
+				</label>
+				<label>
+					<input type="checkbox">Видео
+				</label>
+				<label>
+					<input type="checkbox">Городские встречи
+				</label>
+				<label>
+					<input type="checkbox">Вики
+				</label>
+				<label>
+					<input type="checkbox">Форум
+				</label>
+				<label>
+					<input type="checkbox">Дополнительные курсы
+				</label>
 			</fieldset>
 			<fieldset>
-				<legend></legend>
-				<label></label>
+				<legend>Есть коментарии или предложения?</legend>
+				<label>
+					<textarea></textarea>
+				</label>
 			</fieldset>
-			<input />
+			<input type="sabmit" value="Отправить" />
 		</form>
 	</main>
 </body>
