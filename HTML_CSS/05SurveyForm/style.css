@@ -1,11 +1,8 @@
 body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
   background-image: url("background.jpg");
   background-size: 100% 100%; /* картинка занимает весь контент */
   background-attachment: fixed; /* при скролинге картинка остается на месте */
-  color: #e0d4a6;
+  color: #e0d4a6; /* цвет текста */
   font-family: Tahoma;
   font-size: 16px;
 }
