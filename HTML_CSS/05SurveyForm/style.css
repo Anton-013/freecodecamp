@@ -19,3 +19,8 @@ form {
 	background-color: #261f01;
 	opacity: 95%;
 }
+
+fieldset {
+	border: none; /* рамка */
+}
+
