@@ -1,94 +1,27 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="styles.css">
-	<title>fCC Опрос</title>
+	<link rel="stylesheet" href="styles.css"> 
+	<title>Тест опрос</title>
 </head>
 <body>
-	<header>
-		<h1 id="title">Форма опроса freeCodeCamp</h1>
-		<p id="description">Спасибо, что нашли время помочь нам улучшить нашу платформу</p>
-	</header>
-	<main>
-		<form id="survey-form">
-			<fieldset>
-				<legend>Введите ваши данные</legend>
-				<label for="name" id="name-label">Имя:<input id="name" name="name" type="text" class="block" placeholder="Введите ваше имя" value="Иван" required /></label>
-				<label for="email" id="email-label">Электронная почта:<input id="email" type="email" class="block" placeholder="Введите вашу почту" required /></label>
-				<label for="age" id="age-label">Возраст:<input id="age" type="number" min="14" max="100" class="block" placeholder="Введите сколько вам лет" required /></label>
-				<label for="number" id="number-label">Номер:<input id="number" type="number" min="14" max="100" class="block" placeholder="Введите ваш телефон" required /></label>
-				<label>Какой вариант описывает вашу должность лучше?
-					<select id="select" class="block" id="dropdown" required>
-						<option>Школьник</option>
-						<option>Студент</option>
-						<option>Работающий</option>
-						<option>Не хочу говорить</option>
-						<option>Другое</option>
-					</select>
-				</label>
-			</fieldset>
-			<fieldset>
-				<legend>Порекомендуете ли вы freeCodeCamp другу?</legend>
-				<label><input type="radio" name="radio" />Однозначно да!</label>
-				<label><input type="radio" name="radio" />Не знаю</label>
-				<label><input type="radio" name="radio" />Точно нет!</label>
-			</fieldset>
-			<fieldset>
-				<legend>Какая функция freeCodeCamp вам нравится больше всего?</legend>
-				<select>
-					<option>Вызовы</option>
-					<option>Проекты</option>
-					<option>Сообщество</option>
-					<option>Открытый исходный код</option>
-				</select>
-			</fieldset>
-			<fieldset>
-				<legend>Что бы вы хотели улучшить? (Отметьте все подходящие варианты)</legend>
-				<label>
-					<input type="checkbox">Проекты фронтенда
-				</label>
-				<label>
-					<input type="checkbox">Проекты бэкэнда
-				</label>
-				<label>
-					<input type="checkbox">Визуализация данных
-				</label>
-				<label>
-					<input type="checkbox">Вызовы
-				</label>
-				<label>
-					<input type="checkbox">Сообщество с открытым кодом
-				</label>
-				<label>
-					<input type="checkbox">Комнаты помощи Gitter
-				</label>
-				<label>
-					<input type="checkbox">Видео
-				</label>
-				<label>
-					<input type="checkbox">Городские встречи
-				</label>
-				<label>
-					<input type="checkbox">Вики
-				</label>
-				<label>
-					<input type="checkbox">Форум
-				</label>
-				<label>
-					<input type="checkbox">Дополнительные курсы
-				</label>
-			</fieldset>
-			<fieldset>
-				<legend>Есть коментарии или предложения?</legend>
-				<label>
-					<textarea></textarea>
-				</label>
-			</fieldset>
-			<input type="sabmit" value="Отправить" />
-		</form>
-		<div></div>
-	</main>
+	<h1 id="title">Тест</h1>
+	<p id="description">Форма опроса для задания</p>
+	<form id="survey-form">
+		<label id="name-label">Ваше имя: <input id="name" type="text" placeholder="Введите имя" required /><label>
+		<label id="email-label">Ваша почта: <input id="email" type="email" placeholder="Введите почту" required /><label>
+		<label id="number-label">Ваш номер: <input id="number" type="number" min="1" max="10" placeholder="Введите номер" />
+		<select id="dropdown">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+		<label><input type="radio" name="radio" value="1"/>радио 1</label>
+		<label><input type="radio" name="radio" value="2" />радио 2</label>
+		<label><input type="checkbox" value="check1" />галочка 1</label>
+		<label><input type="checkbox" value="check2" />галочка 2</label>
+		<label><textarea></textarea></label>
+		<label><button id="submit" type="submit">Отправить</button></label>
+	</form>
 </body>
 </html>
