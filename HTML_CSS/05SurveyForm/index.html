@@ -12,14 +12,17 @@
 		<label id="name-label">Ваше имя: <input id="name" type="text" placeholder="Введите имя" required /><label>
 		<label id="email-label">Ваша почта: <input id="email" type="email" placeholder="Введите почту" required /><label>
 		<label id="number-label">Ваш номер: <input id="number" type="number" min="1" max="10" placeholder="Введите номер" />
-		<select id="dropdown">
-			<option>1</option>
-			<option>2</option>
-			<option>3</option>
-		<label><input type="radio" name="radio" value="1"/>радио 1</label>
-		<label><input type="radio" name="radio" value="2" />радио 2</label>
-		<label><input type="checkbox" value="check1" />галочка 1</label>
-		<label><input type="checkbox" value="check2" />галочка 2</label>
+		<label>Выберите вариант
+			<select id="dropdown">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+		</label>		
+		<label><input class="inline" type="radio" name="radio" value="1"/>радио 1</label>
+		<label><input class="inline" type="radio" name="radio" value="2" />радио 2</label>
+		<label><input class="inline" type="checkbox" value="check1" />галочка 1</label>
+		<label><input class="inline" type="checkbox" value="check2" />галочка 2</label>
 		<label><textarea></textarea></label>
 		<label><button id="submit" type="submit">Отправить</button></label>
 	</form>

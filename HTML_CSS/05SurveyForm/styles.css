@@ -7,7 +7,8 @@ body {
   font-size: 16px;
 }
 
-header {
+h1,
+p {
 	text-align: center;
 }
 
@@ -20,24 +21,17 @@ form {
 	opacity: 95%;
 }
 
-fieldset {
-	border: none; /* рамка */
-	margin-bottom: 10px;
-}
-
 label,
-.block {
+input,
+select {
 	display: block;
 	margin-top: 10px;
 }
 
-label,
-.block,
-textarea,
-select {
-	width: 100%;
-}
-
 textarea {
 	min-height: 100px;
+}
+
+.inline {
+	display: inline;
 }
