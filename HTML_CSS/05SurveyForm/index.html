@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="styles.css">
 	<title>fCC Опрос</title>
 </head>
 <body>
@@ -15,11 +15,12 @@
 		<form id="survey-form">
 			<fieldset>
 				<legend>Введите ваши данные</legend>
-				<label for="name">Имя:<input id="name" name="name" type="text" class="block" required /></label>
-				<label for="email">Электронная почта:<input id="email" type="email" class="block" required /></label>
-				<label for="age">Возраст:<input id="age" type="number" min="14" max="100" class="block" required /></label>
+				<label for="name" id="name-label">Имя:<input id="name" name="name" type="text" class="block" placeholder="Введите ваше имя" value="Иван" required /></label>
+				<label for="email" id="email-label">Электронная почта:<input id="email" type="email" class="block" placeholder="Введите вашу почту" required /></label>
+				<label for="age" id="age-label">Возраст:<input id="age" type="number" min="14" max="100" class="block" placeholder="Введите сколько вам лет" required /></label>
+				<label for="number" id="number-label">Номер:<input id="number" type="number" min="14" max="100" class="block" placeholder="Введите ваш телефон" required /></label>
 				<label>Какой вариант описывает вашу должность лучше?
-					<select id="select" class="block" required>
+					<select id="select" class="block" id="dropdown" required>
 						<option>Школьник</option>
 						<option>Студент</option>
 						<option>Работающий</option>
